@@ -22,11 +22,11 @@ public static void task1() {
         int max=arr[0];
         int min= arr[0];
         for (int i=0; i< arr.length; i ++){
-            if(arr[1]>max){
-                max= arr[1];
+            if(arr[i]>max){
+                max= arr[i];
             }
-            if(arr[1]<min){
-                min=arr[1];
+            if(arr[i]<min){
+                min=arr[i];
             }
         }
         System.out.println("Минимальная сумма трат за день составила"+min+ "рублей ."+
