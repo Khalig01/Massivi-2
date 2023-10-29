@@ -30,7 +30,7 @@ public static void task1() {
             }
         }
         System.out.println("Минимальная сумма трат за день составила"+min+ "рублей ."+
-                "Максимальная сумма трат за день составила"+max+ "рублей");
+                "Максимальная сумма трат за день составила"+max+ "рублей!");
     }
     public static void task3() {
 int [] arr= generateRandomArray();
